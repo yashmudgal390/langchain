@@ -6,6 +6,9 @@ langchain-core
 langchain-openai
 openai
 
+# Groq Integration
+langchain-groq
+
 # Anthropic Integration
 langchain-anthropic
 
