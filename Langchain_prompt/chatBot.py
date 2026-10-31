@@ -14,4 +14,4 @@ while True:
         break
     result = model.invoke(chat_history)
     chat_history.append(AIMessage(content=result.content))
-    print("ai:",result.content) 
+    print("ai:",result.content)
