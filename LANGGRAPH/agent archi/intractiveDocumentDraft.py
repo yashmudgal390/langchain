@@ -58,7 +58,7 @@ tools = [update, save]
 
 # Initialize Groq LLM with temperature=0 for deterministic tool calling
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-120b",
     temperature=0,
 )
 model = llm.bind_tools(tools)
